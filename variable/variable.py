@@ -30,11 +30,17 @@ weight =  85	#我真的不重
 eyes_colour = "brown"
 hair_colour = "black"
 
-# 注意format 的使用
+# 注意多个变量的打印
 print "My name is %s ,%s age."%(name,age)
 print "I have %d inches tall."%height
 print "I am %d pounds heavy."%weight 
 print "I have %s eye and %s hair" %(eyes_colour,hair_colour)
+#注意单引号与双引号
+print " 'brown'  \"black\" "
+formmat = "%r \n%r \n%r\n" 
+print formmat %("I have brown eyes",
+				"I don't have red hair",
+				"I'm not the main character in the anime")
 
 
 print "____________format()___________"
