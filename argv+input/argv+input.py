@@ -22,7 +22,6 @@ print "What kind of computer do you have ?"
 computer = raw_input(prompt)
 
 print """
-
 Alright ,so you said %r  about liking me.
 you live in %r .Not sure where thatt is .
 And you have a %r computer .Nice.
