@@ -23,6 +23,7 @@ def print_one_line(line,f):
 
 print "Now,we will print the whole file:"
 txt = open(input_file)
+txt.encoding = 'utf-8'
 print_all(txt)
 
 print "Now,we will print one line."
@@ -30,5 +31,6 @@ current_line = input("which line do you want print? ")
 rewind(txt)
 print_one_line(current_line,txt)
 
+print txt.encoding
 txt.close()
 

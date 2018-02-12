@@ -18,6 +18,7 @@ print "Do you want do that?"
 raw_input('?')
 
 file = open(file_name,"w")
+file.encoding = 'utf-8'
 file.truncate()
 
 print "Now,we will write something."
