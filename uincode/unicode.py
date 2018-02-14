@@ -25,3 +25,8 @@ dict2  = j.decode("unicode-escape").decode("utf-8")
 filename = open('example.json','w')
 
 filename.write(dict2)
+
+
+string = '\u642d\u5efa\u5e76\u884c'
+deal_str = string.decode("unicode-escape").encode('UTF-8')
+print deal_str
