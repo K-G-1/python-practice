@@ -1,0 +1,4 @@
+2018-03-13 11:49:21,371 -simple_example-INFO-logger:info message
+2018-03-13 11:49:21,371 -simple_example-WARNING-logger:warning message
+2018-03-13 11:49:21,371 -simple_example-ERROR-logger:error message
+2018-03-13 11:49:21,371 -simple_example-CRITICAL-logger:critical message
